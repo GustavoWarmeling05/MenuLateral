@@ -1,0 +1,69 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(https://www.10wallpaper.com/wallpaper/1366x768/1302/mountains_and_lakes-Natural_scenery_HD_Wallpaper_1366x768.jpg);    
+}
+
+ul{
+    list-style: none;
+}
+
+img{
+    width: 50px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+
+input[type="checkbox"]{
+display: none;
+}
+
+nav{
+    background-color: rgb(119, 119, 119);
+    width: 300px;
+    height:625px;
+    left: -300px;
+    position: absolute;
+    transition:  all 0.5s;
+    opacity: 0.7;
+}
+
+input[type="checkbox"]:checked ~ nav{
+    transform: translateX(300px);
+}
+
+ul{
+    position: absolute;
+    top: 100px;
+    width: 100%;
+}
+
+a{
+    display: block;
+    padding: 20px 5px;
+    color: rgb(255, 255, 255);
+}
+
+a:hover{
+    background-color: rgb(88, 88, 88);
+    color: rgb(0, 0, 0);
+}
+
+label{
+    position: absolute;
+    top: 5px;
+    z-index: 1;
+
+}
+
+
+
